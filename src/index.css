@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=DM+Serif+Display&family=Domine:wght@600&family=Merriweather:ital,wght@1,700&family=Open+Sans:ital,wght@1,800&family=Poppins&family=Roboto+Slab:wght@200&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=DM+Serif+Display&family=Domine:wght@600&family=Merriweather:ital,wght@1,700&family=Open+Sans:ital,wght@1,800&family=Oswald:wght@300&family=Poppins&family=Roboto+Slab:wght@200&display=swap'); */
+*{
+  background-color: black;
+  font-family: 'Chivo', sans-serif;
+}
+
+
+.card-text{
+  color:black;
+}
+
+.footer-section{
+  display: inline-block;
+}
+
+
+.heading{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+.main-heading{
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-heading{
+  text-align: center;
+  color:rgb(7, 7, 112);
+}
+
+
+
+.home-tab{
+  background-color: darkblue;
+  padding-bottom: 30px;
+  background-color: rgb(218, 226, 218);
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(12, 249, 12);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.border_shadow{
+  box-shadow: 3px 3px 5px rgb(77, 77, 75), -3px -3px 5px rgb(71, 71, 70);
+
+}
+
+.navigation{
+  background-color: blueviolet;
+  height: 90px;
+}
+
+
+
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+
+.top-header { 
+	width: 100%; 
+  height: 80vh;
+  background-color: black;
+	/* background-size: cover;  */
+	/* background-position: center;  */
+} 
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+.h4-white{
+  color: #ffffff;
+}
+
+
+.skill-section{
+  color: #ffffff;
+  display: flex;
+  
+}
+
+
+.centered2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:yellow;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+.centered3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+.img-section {
+  width: 70%;
+  height: 60%;
+  margin: auto;    
+  display: block;
+}
+
+.centered4 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f3f3f9;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding-bottom:9px;
+  padding-left: 6px;
+  padding-right: 6px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#05ed84;
+  
+}
+#flip div:first-child div {
+  background:#06b2f0;
+}
+#flip div:last-child div {
+  background:#f90536;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
