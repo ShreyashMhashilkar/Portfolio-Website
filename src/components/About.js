@@ -19,7 +19,7 @@ const About = () => {
                                     <div class="col-12 col-xl-11">
                                         <h2 class="h1 mb-3 text-center" style={{ color: 'red' }}>ABOUT ME</h2>
                                         <h4 style={{ color: '#ffffff' }}>Front-end Developer/Software Developer</h4>
-                                        <p class="mb-5" style={{ color: '#ffffff' }}>Hi there, I'm Shreyash Mhashilkar - a full stack web developer. I develop beautiful and user-friendly websites. I like what I’m currently doing (Web Development!…). Challenging myself to learn new things and expanding my skillset - my driving force. Talking about my personality, I describe myself as a result-oriented person; great team player yet competent solo worker and an efficient individual. You can imagine me as a diligent and easygoing person with a good sense of humour.</p>
+                                        <p class="mb-5" style={{ color: '#ffffff' }}>Hi there, I'm Shreyash Mhashilkar - a full stack developer. I develop aesthetic and user-friendly websites. I like what I’m currently doing (Web Development!…). Challenging myself to learn new things and expanding my skillset - my driving force. Talking about my personality, I describe myself as a result-oriented person; great team player yet competent solo worker and an efficient individual. You can imagine me as a diligent and easygoing person with a good sense of humour.</p>
                                         {/* <br /> */}
                                         <section class="mb-4 text-center">
                                             <a

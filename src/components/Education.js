@@ -28,7 +28,7 @@ const Education = () => {
                 <p>St.Aloysius High School</p>
            </div>
                 <div class="timeline-component timeline-content">
-                         <h3>HSS</h3>
+                         <h3>HSC</h3>
                          <p>Utkarsha Vidyalaya & Junior College</p>
                 </div>
                 <div class="timeline-middle">
