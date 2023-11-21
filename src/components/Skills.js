@@ -38,7 +38,7 @@ const Skills = () => {
                                 <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                     <div class="progress-bar " style={{ width: '90%' }}>90%</div>
                                 </div>
-                                <h4 className="h4-white">MATERAIL UI</h4>
+                                <h4 className="h4-white">MATERIAL UI</h4>
                                 <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                     <div class="progress-bar " style={{ width: '85%' }}>85%</div>
                                 </div>
