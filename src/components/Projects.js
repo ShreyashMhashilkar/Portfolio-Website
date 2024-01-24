@@ -1,4 +1,4 @@
-import invitation from '../Images/invitation.png'
+import invitation from '../Images/invitation.PNG'
 import pizza from '../Images/pizza.png'
 import wheretowatch from '../Images/wheretowatch.png'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
